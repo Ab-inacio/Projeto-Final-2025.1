@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca virtual</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Biblioteca A Leitura</h1>
+        <nav>
+             <a href="index.html">Início</a>
+             <a href="livros.html">Livros</a>
+             <a href="contato.html">Contato</a>   
+        </nav>
+    </header>
+
+<main>
+    <h2>Livros Disponíveis</h2>
+
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Digite o nome do livro">
+      <button onclick="buscarLivro()">Pesquisar</button>
+    </div>
+
+    <div id="mensagem" class="mensagem"></div>
+
+    <div id="livrosContainer" class="livros-container">
+    </div>
+  </main>
